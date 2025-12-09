@@ -30,7 +30,9 @@ git clone [ADRES URL REPOZYTORIUM]
 cd nazwa-katalogu
 
 # Zainstaluj zależności projektowe (m.in. react-router-dom, Vite)
+
 npm install
+
 2. Uruchomienie Aplikacji
 Użyj standardowej komendy Vite do uruchomienia serwera deweloperskiego.
 
@@ -38,4 +40,5 @@ Bash
 
 # Uruchomienie aplikacji w trybie deweloperskim
 npm run dev
+
 Aplikacja będzie dostępna w przeglądarce pod adresem wskazanym przez konsolę (zazwyczaj http://localhost:5173).
