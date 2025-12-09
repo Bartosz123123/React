@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import useCart from './hooks/useCart';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 	const { cart, totalItemsInCart, handleAddToCart, handleRemoveFromCart } =
@@ -59,6 +60,7 @@ const App = () => {
 					<Route path='*' element={<h1>Page Not Found</h1>} />
 				</Routes>
 			</>
+			<Footer />
 		</div>
 	);
 };
