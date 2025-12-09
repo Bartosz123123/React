@@ -1,4 +1,4 @@
-/* src/components/StarRating/StarRating.css */
+
 
 .star-rating {
 	display: flex;
@@ -12,7 +12,7 @@
 	margin-right: 2px;
 }
 
-/* Możesz użyć tego do stylizacji ikon Font Awesome */
+
 .filled {
 	color: gold;
 }

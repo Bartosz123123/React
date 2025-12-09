@@ -60,54 +60,6 @@ p {
 	margin: 0 8px;
 }
 
-/* .card {
-	margin: 0 auto;
-	margin-top: 20px;
-	padding: 20px;
-	width: 300px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
-	text-align: center;
-}
-
-.product-image {
-	width: 150px;
-	height: 150px;
-	object-fit: contain;
-	margin-bottom: 15px;
-}
-
-.product-title {
-	font-size: 20px;
-	color: var(--text-color);
-	margin-bottom: 10px;
-}
-
-.product-price {
-	font-size: 18px;
-	color: var(--primary-color);
-	margin-bottom: 15px;
-}
-
-.btn-details {
-	padding: 10px 20px;
-	font-size: 16px;
-	color: #fff;
-	background-color: var(--primary-color);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: background-color 0.3s, color 0.3s ease;
-}
-
-.category {
-	margin-top: 10px;
-	font-size: 14px;
-	color: var(--secondary-text-color);
-	margin-bottom: 10px;
-	text-transform: capitalize;
-} */
-
 @media (max-width: 768px) {
 	.title {
 		font-size: 26px;
