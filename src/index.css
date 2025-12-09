@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+:root {
+	--primary-color: #4a90e2;
+	--primary-color-light: #dde4ff;
+	--text-color: #333;
+	--secondary-text-color: #666;
+	--background-color: #fff;
+}

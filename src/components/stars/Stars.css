@@ -1,0 +1,26 @@
+/* src/components/StarRating/StarRating.css */
+
+.star-rating {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	font-size: 16px;
+}
+
+.stars i {
+	margin-right: 2px;
+}
+
+/* Możesz użyć tego do stylizacji ikon Font Awesome */
+.filled {
+	color: gold;
+}
+
+.empty {
+	color: lightgray;
+}
+
+.rating-count {
+	color: #666;
+}

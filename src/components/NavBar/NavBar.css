@@ -1,0 +1,117 @@
+.nav-bar {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+.shop-name {
+	font-size: 24px;
+	color: #333;
+	cursor: pointer;
+}
+
+.nav-link {
+	padding: 15px 20px;
+	color: #333;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	cursor: pointer;
+}
+
+.nav-link:hover {
+	background-color: var(--primary-color-light);
+}
+
+.btn-icon {
+	position: relative;
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+	border-radius: 50px;
+	i {
+		font-size: 15px;
+	}
+	cursor: pointer;
+}
+
+.cart-badge {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	padding: 2px 6px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.btn-icon:hover {
+	background-color: var(--primary-color-light);
+}
+
+.isActive {
+	background-color: var(--primary-color-light);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.nav-bar {
+		justify-content: space-between;
+		padding: 0 12px;
+		height: 56px;
+		gap: 12px;
+		flex-wrap: nowrap;
+	}
+
+	.shop-name {
+		font-size: 20px;
+	}
+
+	.nav-link {
+		padding: 10px 14px;
+		font-size: 15px;
+	}
+
+	.btn-icon {
+		padding: 8px;
+	}
+
+	.btn-icon i {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.nav-bar {
+		justify-content: space-between;
+		padding: 0 8px;
+		height: 52px;
+		gap: 8px;
+	}
+
+	.shop-name {
+		font-size: 18px;
+	}
+
+	.nav-link {
+		padding: 8px 10px;
+		font-size: 14px;
+	}
+
+	.btn-icon {
+		padding: 6px;
+	}
+
+	.btn-icon i {
+		font-size: 13px;
+	}
+}
+

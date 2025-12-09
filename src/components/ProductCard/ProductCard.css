@@ -1,0 +1,129 @@
+.card {
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+	width: 300px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.product-image {
+	width: 150px;
+	height: 150px;
+	object-fit: contain;
+	margin-bottom: 15px;
+}
+
+.product-title {
+	font-size: 20px;
+	color: var(--text-color);
+	flex-grow: 1;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.product-price {
+	font-size: 18px;
+	color: var(--primary-color);
+	margin-bottom: 15px;
+	flex-shrink: 0;
+}
+
+.btn-details {
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: var(--primary-color);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s ease;
+	margin-top: auto;
+	flex-shrink: 0;
+}
+
+.category {
+	margin-top: 10px;
+	font-size: 14px;
+	color: var(--secondary-text-color);
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	flex-shrink: 0;
+}
+
+.add-to-cart,
+.btn-remove {
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: var(--primary-color);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s ease;
+	margin-top: 10px;
+	flex-shrink: 0;
+}
+
+.current-quantity {
+	margin: 0 8px;
+	font-size: 14px;
+	color: var(--secondary-text-color);
+}
+
+@media (max-width: 768px) {
+	.card {
+		width: 260px;
+		padding: 16px;
+	}
+
+	.product-image {
+		width: 130px;
+		height: 130px;
+	}
+
+	.product-title {
+		font-size: 18px;
+	}
+
+	.product-price {
+		font-size: 16px;
+	}
+
+	.btn-details {
+		padding: 8px 16px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		width: 100%;
+		max-width: 320px;
+		padding: 14px;
+	}
+
+	.product-image {
+		width: 120px;
+		height: 120px;
+	}
+
+	.product-title {
+		font-size: 16px;
+	}
+
+	.product-price {
+		font-size: 14px;
+	}
+
+	.btn-details {
+		padding: 8px 14px;
+		font-size: 14px;
+		border-radius: 40px;
+	}
+}
